@@ -1,0 +1,91 @@
+{"intents":[
+    {
+        "tags": "greetings",
+        "patterns": ["hey","hello","hi","what's up?","how are you","ssup","how you doing"],
+        "responses": ["Hello","Hey!","What can i do for you?"]
+    },
+    {
+        "tags": "goodbye",
+        "patterns": ["cya","bye","see you later","Goodbye","Have a good day","see ya","I am leaving"],
+        "responses": ["Sad:( See you later","Goodbye","Talk to you later"]
+    },
+    {
+        "tags": "age",
+        "patterns": ["how old are you","how old is your creator","what is your age","age?","how old is divij","your age?","creators age"],
+        "responses": ["You don't ask a women her age. do you? ;)","I'm 18 years old","18 years"]
+
+    },
+    {
+        "tags": "name",
+        "patterns": ["what is your name","what should i call you","whats your name","who are you","what are you","can you tell me your name","your sweet name please"],
+        "responses": ["You can call me Hope","I'm Hope","I'm Hope the personal assistant of DJ"]
+    },
+    {
+        "tags": "hours",
+        "patterns": ["from when are you available","what is your working hours","hours of work"],
+        "responses": ["24/7","I work fulltime "]
+    },
+    {
+        "tags": "time",
+        "patterns": ["what is the time","tell me the time","can you tell me the time","time?","do you know the time"],
+        "responses": ["The time is "]
+    },
+    {
+        "tags": "weather",
+        "patterns": ["what is the weather like outside?","what is the weather outside","how is the weather outside","tell me the weather outside"],
+        "responses": ["ok ok"]
+    },
+    {
+        "tags": "wikipedia",
+        "patterns": ["in wikipedia","search in wikipedia","wikipedia","search for in wikipedia"],
+        "responses": ["Searching in Wikipedia"]
+    },
+    {
+        "tags": "wishme",
+        "patterns":["wishme","wishme hope","good morning","good night hope","good afternoon hope",""],    
+        "responses": [" "]
+    },
+    {
+        "tags": "vscode",
+        "patterns":["i need to code","code ","open vscode","hope visual studio code"],
+        "responses": [" "]
+        
+    },
+    {
+        "tags": "mail",
+        "patterns": ["open mail","open gmail for me hope","i need to check my mails","hey hope do i have any mails","hey hope did i get any mails today?"],
+        "responses": [" "]
+    },
+    {
+        "tags": "photo",
+        "patterns": ["hope take a photo","hope say cheese","take a picture of my face","click a picture"],
+        "responses": [" "]
+    },
+    {
+        "tags": "discord",
+        "patterns": ["open discord ","hope please open discord","can you open discord for me","do i have any messages in discord"],
+        "responses": [" "]
+    },
+    {
+        "tags": "com",
+        "patterns": ["open stackoverflow.com","%.com in chrome",".com in browser"],
+        "responses": [" "]
+    },
+    {
+        "tags": "google",
+        "patterns": ["search for in google",".in google","in browser","search in google","search for "],
+        "responses": [" "]
+    },
+    {
+        "tags": "wolf",
+        "patterns": ["seach for a math prob in wolframaplpha","tell me about from wolframalpha","what is the general relativity"],
+        "responses":[" "]
+    },
+    {
+        "tags": "youtube",
+        "patterns": ["open youtube","im getting bored","youtube","can you open youtube for me","search for in youtube "],
+        "responses": [" "]
+    }
+]
+
+}
