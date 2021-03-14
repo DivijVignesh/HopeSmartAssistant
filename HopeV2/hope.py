@@ -11,7 +11,7 @@ import json
 import requests
 import hopeChatBot #userdefined 
 from tasks import wiki,weather,time,wishme,vscode,browser,photo,com,wolf
-# from tasks import wiki,weather,time,wishme,vscode,browser,photo,com,wolf
+
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')  # getting details of current voice
@@ -50,7 +50,7 @@ def takeCommand():
  
                
 if __name__ == "__main__":
-    chrome_path="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
+    chrome_path="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"  #chrome path should be pasted over here depending on your chrome app location in your local device
     while True:
         if True:
             # winsound.Beep(500,200)
@@ -58,19 +58,19 @@ if __name__ == "__main__":
             # Logic for executing tasks based on query
             if 'turn' and 'temperature sensor' in query:
                 if 'on' in query:
-                    r=requests.post("https://api.thingspeak.com/update?api_key=GACHPWMRL2K82GPO&field1=1")
+                    r=requests.post("https://api.thingspeak.com/update?api_key=ApiKeyHere&field1=1")     #paste your api key here
                     speak("turning on")
                 elif 'off' in query:
-                    r=requests.post("https://api.thingspeak.com/update?api_key=GACHPWMRL2K82GPO&field1=0")
+                    r=requests.post("https://api.thingspeak.com/update?api_key=ApiKeyHere&field1=0")   #paste your api key here
                     speak("turning off")
                 print(r)
                 continue    
             if 'turn' and 'current sensor' in query:
                 if 'on' in query:
-                    r=requests.post("https://api.thingspeak.com/update?api_key=K0M3WWMJR65G8IMS&field1=1")
+                    r=requests.post("https://api.thingspeak.com/update?api_key=ApiKeyHere&field1=1")   #paste your api key here
                     speak("turning on")
                 elif 'off' in query:
-                    r=requests.post("https://api.thingspeak.com/update?api_key=K0M3WWMJR65G8IMS&field1=0")
+                    r=requests.post("https://api.thingspeak.com/update?api_key=ApiKeyHere&field1=0")   #paste your api key here
                     speak("turning off")
                 print(r)
                 continue          
